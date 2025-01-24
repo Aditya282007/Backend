@@ -4,12 +4,16 @@
   "description": "Buliding a simple and basic app to learn backend from chai and backend",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "keywords": [
     "chai",
     "node"
   ],
   "author": "Aditya Chavda",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
 }
